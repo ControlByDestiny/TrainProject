@@ -5,10 +5,13 @@
       <element id="javaee-facet-resources" facet="book/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="javaee-facet-classes" facet="book/web/Web" />
           <element id="module-output" name="book" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.11" />
+        </element>
       </element>
+      <element id="artifact" artifact-name="book" />
     </root>
   </artifact>
 </component>

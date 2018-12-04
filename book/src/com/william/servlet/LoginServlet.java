@@ -26,6 +26,7 @@ public class LoginServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         System.out.println("-----------START INIT-----------");
+
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -42,7 +43,7 @@ public class LoginServlet extends HttpServlet {
             HttpSession session = request.getSession();
             user.setUserPassword(null);
             session.setAttribute(LoginConstants.USER, user);
-            response.sendRedirect(request.getContextPath() + "/dashboard");
+            response.sendRedirect(request.getContextPath() + "/mybook");
         } catch (ParameterException parameterException) {
             Map <String, String> errorFields = parameterException.getErrorFields();
             request.setAttribute(LoginConstants.ERROR_FIELDS, errorFields);
