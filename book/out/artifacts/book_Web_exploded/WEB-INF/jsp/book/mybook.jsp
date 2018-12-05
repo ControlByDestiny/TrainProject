@@ -9,14 +9,28 @@
 <html>
 <head>
     <title>我的图书</title>
+    <link href="/static/style/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="warpper" style="width: 1240px; border: 1px solid; min-height: 500px; margin: 0 auto;">
-        <div id="header" style="height:40px; border:1px solid; margin: 0 auto"></div>
-        <div id="breadcrumb" style="height:30px; border:1px solid; margin: 0 auto"></div>
-        <div id="main">
-            <div id="left" style="float: left; height: 400px; width:300px; border:1px solid;"></div>
+    <div id="wrapper" >
+        <div id="header" >
+            <div class="logo" >
+                这是Logo部分
+            </div>
+            <div class="menu" >
+               <ul>
+                   <li ><a href="#">我的图书</a></li>
+                   <li ><a href="#">全部图书</a></li>
+               </ul>
+            </div>
+            <div class="tool" >这是Tool部分</div>
         </div>
+        <div id="breadcrumb" ></div>
+        <div id="main" >
+            <div id="left" ></div>
+            <div id="content" ></div>
+        </div>
+        <div id="footer" ></div>
     </div>
 </body>
 </html>
