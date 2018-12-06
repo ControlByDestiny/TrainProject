@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+.errorMessage {
+    color: red;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("images/1544062784863.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+body::before{
+    content:'';
+    position:absolute;
+    border: 1px ;
+    top:0;
+    left:0;
+    width: 1920px;
+    height: 1080px;
+    background:transparent url("images/1544062784863.jpg")center no-repeat;
+    filter:blur(4px);
+    z-index:-1;
+    background-size:cover;
+}
+
+.wrapper{
+    width: 1366px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.login_title {
+    width: 460px;
+    height: 110px;
+    position: relative;
+    top: 400px;
+    left: 140px;
+    font: 36px/1.5em Noto Sans, sans-serif;
+    font-weight: bold;
+    color: #FFFF33;
+}
+
+.login_form {
+    width: 360px;
+    height:380px;
+    position: relative;
+    top: 170px;
+    left: 720px;
+    border-radius: 5px;
+    background-color: #E5EEFF;
+    border: 1px solid #E5EEFF;
+}
+
+.login_form .logo {
+    width: 140px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+    color: #0431B4;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+.login_form .title {
+    width: 245px;
+    height: 40px;
+    margin-top: 85px;
+    margin-left: 40px;
+    text-align: left;
+    color: #5165B2;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    position: relative;
+
+}
+
+.login_form .line {
+    height: 30px;
+    margin-top: 40px;
+    position: relative;
+    line-height: 30px;
+}
+.login_form label {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.login_form input {
+    position: absolute;
+    top: 2px;
+    left: 110px;
+    width: 210px;
+    height: 26px;
+    border: 1px solid #858585;
+    border-radius: 3px;
+    text-indent: 4px;
+}
+
+.login_form .button {
+    margin-top: 50px;
+    width: 210px;
+    height: 30px;
+    margin-left: 110px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #5394CB;
+    border-radius: 3px;
+}
+.login_footer {
+    width: 800px;
+    height: 20px;
+    border-top: 1px dashed #E7E7E7;
+    position: relative;
+    top: 275px;
+    margin: 0 auto;
+    color: #E7E7E7;
+    padding-top: 10px;
+}

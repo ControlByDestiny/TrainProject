@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>我的图书</title>
-    <link href="/static/style/style.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/static/style/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="wrapper" >

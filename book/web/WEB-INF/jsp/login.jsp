@@ -11,11 +11,8 @@
 <html>
 <head>
   <title>Login</title>
-  <style>
-    .errorMessage {
-      color: red;
-    }
-  </style>
+  <link href="${pageContext.request.contextPath}/static/style/loginstyle.css" rel="stylesheet" type="text/css"/>
+  <link href="${pageContext.request.contextPath}/static/style/reset.css" rel="stylesheet" type="text/css"/>
   <script>
 
     function login() {
@@ -58,31 +55,53 @@
     }
   </script>
 </head>
-<body>
-<%
-  String tipMessage = (String) request.getAttribute(LoginConstants.TIP_MESSAGE);
-  if (tipMessage != null) {
-    out.println(tipMessage);
-  }
-  Map<String, String> errorFields = (Map<String, String>) request.getAttribute(LoginConstants.ERROR_FIELDS);
-  if (errorFields == null) {
-    errorFields = new HashMap<>();
-  }
-%>
-<form action="${pageContext.request.contextPath}/login" method="post" id="loginForm">
-  UserName:<input type="text" name="userName" id="userName" onblur="dataCheck()"/>
-  <label id="errorUserName" class="errorMessage">
-    <% String errorUserName = errorFields.get("errorName") == null ? "" : errorFields.get("errorName");
-      out.print(errorUserName);
+<body class="background_img">
+    <%
+      String tipMessage = (String) request.getAttribute(LoginConstants.TIP_MESSAGE);
+      if (tipMessage != null) {
+          out.println(tipMessage);
+      }
+      Map<String, String> errorFields = (Map<String, String>) request.getAttribute(LoginConstants.ERROR_FIELDS);
+      if (errorFields == null) {
+          errorFields = new HashMap<>();
+      }
     %>
-  </label><br/>
-  Password:<input type="password" name="password" id="password" onblur="dataCheck()"/>
-  <label id="errorPassword" class="errorMessage">
-    <% String errorPassword = errorFields.get("errorPassword") == null ? "" : errorFields.get("errorPassword");
-      out.print(errorPassword);
-    %>
-  </label><br/>
-  <input type="button" value="Login" onclick="login()">
-</form>
+    <div class="wrapper">
+        <div class="login_title">奇文共欣赏，疑义相与析。<br /><label style="float: right">——陶渊明</label> </div>
+            <div class="login_form">
+              <div class="logo">Augmentum &#8482;</div>
+
+              <div class="title">图书分享平台</div>
+
+              <form action="${pageContext.request.contextPath}/login" method="post" id="loginForm">
+
+                <div class="line">
+                  <label >用户名</label>
+                  <input type="text" name="userName" onblur="dataCheck()"/>
+                </div>
+
+                <div class="line" style="margin-top:20px; ">
+                  <label class="login_form_name_label">密码</label>
+                  <input type="password" name="password" id="password" onblur="dataCheck()"/>
+                </div>
+
+                <div class="button">登录</div>
+
+                <label id="errorUserName" class="errorMessage">
+                  <% String errorUserName = errorFields.get("errorName") == null ? "" : errorFields.get("errorName");
+                  out.print(errorUserName);
+                  %>
+                </label><br/>
+                <label id="errorPassword" class="errorMessage"><% String errorPassword = errorFields.get("errorPassword") == null ? "" : errorFields.get("errorPassword");out.print(errorPassword);%>
+                </label><br/>
+        <%--<input type="button" value="Login" onclick="login()">--%>
+      </form>
+
+      </div>
+
+      <div class="login_footer">Copyright &copy; 2018 Augmentum Inc. All Rights Reserved</div>
+
+    </div>
+
 </body>
 </html>
