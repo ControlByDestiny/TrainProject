@@ -16,54 +16,54 @@
   <script>
 
     function login() {
-      var formObj = document.getElementById("loginForm");
-      var submitForm = false;
-      var userNameValue = document.getElementById("userName").value;
-      if (!userNameValue) {
-        document.getElementById("errorUserName").innerHTML = "User Name Is Required";
-        submitForm = false;
-      } else {
-        document.getElementById("errorUserName").innerHTML = "";
-        submitForm = true;
-      }
-      var passwordValue = document.getElementById("password").value;
-      if (!passwordValue) {
-        document.getElementById("errorPassword").innerHTML = "Password Is Required";
-        submitForm = false;
-      } else {
-        document.getElementById("errorPassword").innerHTML = "";
-        submitForm = true;
-      }
-      if (submitForm) {
-        formObj.submit();
-      }
-    }
+        var formObj = document.getElementById("loginForm");
+        var submitForm = true;
+        var userNameIsNull = false;
+        var passwordIsNull = false;
 
-    function dataCheck() {
-      var userNameValue = document.getElementById("userName").value;
-      if (!userNameValue) {
-        document.getElementById("errorUserName").innerHTML = "User Name Is Required";
-      } else {
-        document.getElementById("errorUserName").innerHTML = "";
-      }
-      var passwordValue = document.getElementById("password").value;
-      if (!passwordValue) {
-        document.getElementById("errorPassword").innerHTML = "Password Is Required";
-      } else {
-        document.getElementById("errorPassword").innerHTML = "";
-      }
+        var userNameObj = document.getElementById("userName");
+        var userNameValue =userNameObj.value;
+
+        var errorMsg = "";
+        var errorMsgObj=document.getElementById("errorMsg");
+
+        if (!userNameValue) {
+            userNameIsNull = true;
+            errorMsg = "请输入用户名";
+            submitForm = false;
+            userNameObj.style.cssText = "border:1px solid #EB340A;";
+        } else {
+            userNameObj.style.cssText = "border: 1px solid #858585"
+        }
+
+        var passwordObj = document.getElementById("password");
+        var passwordValue = passwordObj.value;
+        if (!passwordValue) {
+            passwordIsNull = true;
+            errorMsg = "请输入密码";
+            passwordObj.style.cssText = "border:1px solid #EB340A;";
+            submitForm = false;
+        } else {
+            passwordObj.style.cssText = "border: 1px solid #858585"
+        }
+        if (userNameIsNull && passwordIsNull) {
+            errorMsg = "请输入用户名和密码";
+        }
+        if (submitForm) {
+            formObj.submit();
+        } else {
+            errorMsgObj.innerHTML = errorMsg;
+            errorMsgObj.style.visibility="visible";
+        }
     }
   </script>
 </head>
 <body class="background_img">
     <%
       String tipMessage = (String) request.getAttribute(LoginConstants.TIP_MESSAGE);
-      if (tipMessage != null) {
-          out.println(tipMessage);
-      }
-      Map<String, String> errorFields = (Map<String, String>) request.getAttribute(LoginConstants.ERROR_FIELDS);
-      if (errorFields == null) {
-          errorFields = new HashMap<>();
+      String visibility = "hidden";
+      if (tipMessage != null && !tipMessage.equals("")) {
+          visibility = "visible";
       }
     %>
     <div class="wrapper">
@@ -77,30 +77,22 @@
 
                 <div class="line">
                   <label >用户名</label>
-                  <input type="text" name="userName" onblur="dataCheck()"/>
+                  <input type="text" name="userName" id="userName"/>
                 </div>
 
                 <div class="line" style="margin-top:20px; ">
-                  <label class="login_form_name_label">密码</label>
-                  <input type="password" name="password" id="password" onblur="dataCheck()"/>
+                  <label >密码</label>
+                  <input type="password" name="password" id="password" />
                 </div>
-
-                <div class="button">登录</div>
-
-                <label id="errorUserName" class="errorMessage">
-                  <% String errorUserName = errorFields.get("errorName") == null ? "" : errorFields.get("errorName");
-                  out.print(errorUserName);
-                  %>
-                </label><br/>
-                <label id="errorPassword" class="errorMessage"><% String errorPassword = errorFields.get("errorPassword") == null ? "" : errorFields.get("errorPassword");out.print(errorPassword);%>
-                </label><br/>
-        <%--<input type="button" value="Login" onclick="login()">--%>
+                <div id="errorMsg" class="line" style="margin-top: 10px;visibility: <%=visibility %>;color: #EB340A;font-size: 14px"  >
+                <%=tipMessage%>
+                </div>
+                <div class="button" onclick="login()">登录</div>
       </form>
 
       </div>
 
       <div class="login_footer">Copyright &copy; 2018 Augmentum Inc. All Rights Reserved</div>
-
     </div>
 
 </body>

@@ -8,6 +8,9 @@
           <element id="javaee-facet-classes" facet="book/web/Web" />
           <element id="module-output" name="book" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar" />
+        </element>
       </element>
     </root>
   </artifact>

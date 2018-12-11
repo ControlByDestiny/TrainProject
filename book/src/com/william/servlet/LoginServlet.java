@@ -5,6 +5,7 @@ import com.william.exception.ParameterException;
 import com.william.exception.ServiceException;
 import com.william.model.User;
 import com.william.service.UserService;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -26,7 +27,6 @@ public class LoginServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         System.out.println("-----------START INIT-----------");
-
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

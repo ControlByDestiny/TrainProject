@@ -1,68 +1,265 @@
 @charset "UTF-8";
+${
+}
 
+body {
+    width: 100%;
+    height: 100%;
+    background: url("images/BKG_Overlay_1400x800.png") no-repeat fixed center top;
+}
 
 #wrapper {
-    width: 1240px;
-    border: 1px solid;
+    width: 100%;
     min-height: 500px;
     margin: 0 auto;
 }
 
+#header_wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: #286C85;
+}
+
 #header{
-    height:40px;
-    border:1px solid;
+    width: 1200px;
+    height:50px;
     margin: 0 auto;
 }
 
 #header .logo{
     float: left;
-    border: 1px solid;
-    width: 300px;
-    height: 40px
+    width: 240px;
+    height: 50px;
+    background: url("images/LOGO_48x48.png") no-repeat;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 60px;
 }
 
 #header .menu{
     float: left;
-    border: 1px solid;
-    width: 600px;
-    height: 40px;
+    width: 500px;
+    height: 50px;
 }
 
 #header .menu li{
     float: left;
-    width: 100px
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
 }
+
+#header .menu li a{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #4F92AB;
+    border-radius: 1px;
+}
+
 #header .tool{
     float: right;
-    border: 1px solid;
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+}
+
+#header .tool input{
+    position: absolute;
+    width: 240px;
+    height: 32px;
+    top: 9px;
+    left: 0;
+    border-radius: 3px;
+    background-color: #E3F7FF;
+    text-indent: 4px;
+    border: 1px solid #E3F7FF;
+}
+
+#header .tool .search_button{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 11px;
+    left: 208px;
+    background-color: #E3F7FF;
+    cursor: pointer;
+}
+
+#header .tool .role_switch_button{
+    position: absolute;
+    top: 11px;
+    right: 0;
+    cursor: pointer;
 }
 
 #breadcrumb{
+    width: 1200px;
     height:30px;
-    border:1px solid;
     margin: 0 auto;
 }
-#main{
+
+#breadcrumb ul{
     overflow: hidden;
+}
+
+#breadcrumb li{
+    float: left;
+    width: 70px;
+    height:30px;
+    color: #696969;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#breadcrumb li a{
+    color: #696969;
+}
+
+#main{
+    width: 1200px;
+    overflow: hidden;
+    margin:  0 auto;
 }
 
 #left{
     float: left;
     min-height: 600px;
-    width:300px;
-    border:1px solid;
+    width:280px;
+}
+
+#left .user_info{
+    width:180px;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    border:1px solid #D5D5D5;
+}
+
+#left .user_info .user_header img{
+    width:80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+#left .user_info .user_header .user_name{
+    width:155px;
+    border-bottom: 1px solid #D5D5D5;
+    color: #555555;
+    font-size: 15px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+#left .user_info .user_basis .tip{
+    width:130px;
+    height: 20px;
+    margin-top: 15px;
+    background: url("images/ICN_My_Profile_20x20.png") no-repeat 15px;
+    color: #333333;
+    font-size: 12px;
+    padding-left: 50px;
+    text-align: left;
+    position: relative;
+    line-height: 20px;
+}
+
+#left .user_info .user_basis .tip img{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#left .user_info .user_basis li{
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#left .user_info .user_basis li label{
+    float: left;
+}
+
+#left .user_info .user_basis li span{
+    color: #707070;
+    display: inline-block;
+    width: 122px;
+    word-break: normal;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#left .user_message{
+    width: 180px;
+    border: 1px solid #D5D5D5;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#left .user_message .my_message{
+    background: url("images/ICN_Message_20x20.png") no-repeat 15px;
+    width: 130px;
+    height: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333333;
+    padding-left: 50px;
+    text-align: left;
+    position: relative;
+}
+
+#left .user_message label{
+    line-height: 20px;
+}
+
+#left .user_message .my_message .tip_count{
+    padding: 0 6px;
+    border-radius: 50%;
+    background-color: #EB340A;
+    color: #FFFFFF;
+    left: 110px;
+    top: 0;
+    position: absolute;
+}
+
+#left .user_message .my_request{
+    background: url("images/ICN_MyRequest_20x20.png") no-repeat 15px 0;
+    width: 130px;
+    height: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333333;
+    padding-left: 50px;
+    text-align: left;
+    position: relative;
+}
+
+#left .user_message .my_request .tip_count{
+    padding: 0 6px;
+    border-radius: 50%;
+    background-color: #EB340A;
+    color: #FFFFFF;
+    left: 110px;
+    top: 0;
+    position: absolute;
 }
 
 #content{
     float: right;
     min-height: 600px;
-    width:920px;
+    width:900px;
     border:1px solid;
 }
 
 #footer{
+    width: 1200px;
     height:30px;
     border:1px solid;
     margin: 0 auto;

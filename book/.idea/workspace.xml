@@ -7,9 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="702183c6-3b46-48e2-aca5-5d406d62a43e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_111.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/classes/META-INF/book.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/classes/com/william/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/classes/com/william/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/jsp/book/mybook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/jsp/book/mybook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/loginstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/loginstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/LoginConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/exception/ParameterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/servlet/DashboardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/utils/DButil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/com/william/utils/PropertyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/jsp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/william/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/william/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/style/loginstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/style/loginstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/style/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/style/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,26 +52,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="445">
+              <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
               <folding>
-                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4039#4045#0#HTML" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#1422#1428#0#HTML" expanded="true" />
+                <element signature="e#1369#1375#0#HTML" expanded="true" />
+                <element signature="e#2023#2029#0#HTML" expanded="true" />
+                <element signature="e#2029#2035#0#HTML" expanded="true" />
+                <element signature="e#2106#2112#0#HTML" expanded="true" />
+                <element signature="e#2112#2118#0#HTML" expanded="true" />
+                <element signature="e#2197#2203#0#HTML" expanded="true" />
+                <element signature="e#2203#2209#0#HTML" expanded="true" />
+                <element signature="e#2293#2299#0#HTML" expanded="true" />
+                <element signature="e#2299#2305#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/static/style/loginstyle.css">
+        <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="192">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -51,6 +93,7 @@
       <list>
         <option value="Jsp File" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,14 +111,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/william/LoginConstants.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/config/app.properties" />
         <option value="$PROJECT_DIR$/src/com/william/servlet/ShowMyBookServlet.java" />
-        <option value="$PROJECT_DIR$/web/static/style/style.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp" />
-        <option value="$PROJECT_DIR$/web/static/style/reset.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/static/style/reset.css" />
+        <option value="$PROJECT_DIR$/config/app.properties" />
         <option value="$PROJECT_DIR$/web/static/style/loginstyle.css" />
+        <option value="$PROJECT_DIR$/src/com/william/servlet/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/william/socket/ScoketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/william/socket/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp" />
+        <option value="$PROJECT_DIR$/web/static/style/style.css" />
       </list>
     </option>
   </component>
@@ -86,9 +132,9 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="width" value="964" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="964" />
+    <option name="width" value="956" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,12 +156,13 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="william" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -128,6 +174,13 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -161,23 +214,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544101399975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544531387510" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts/book_Web_exploded/static/images" />
+      <recent name="$PROJECT_DIR$/web/static/style/images" />
+      <recent name="$PROJECT_DIR$/src/com/william/servlet" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/static/style/images" />
+      <recent name="$PROJECT_DIR$/web/static/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,26 +411,31 @@
       <workItem from="1543914894706" duration="2725000" />
       <workItem from="1544009050145" duration="6839000" />
       <workItem from="1544059929969" duration="20503000" />
+      <workItem from="1544153771212" duration="8844000" />
+      <workItem from="1544404613510" duration="9188000" />
+      <workItem from="1544422566093" duration="9372000" />
+      <workItem from="1544435182068" duration="2180000" />
+      <workItem from="1544496066052" duration="20790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32785000" />
+    <option name="totallyTimeSpent" value="83159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
+    <frame x="964" y="0" width="956" height="1035" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6728499" weight="0.24390244" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.32715008" side_tool="true" weight="0.1140257" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.32715008" side_tool="true" weight="0.1140257" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.6728499" visible="true" weight="0.2195122" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.33108866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.4040404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,9 +444,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005359" side_tool="true" weight="0.33182332" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32997763" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32996634" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32996634" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4994641" weight="0.3171008" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -391,28 +459,28 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6728499" visible="true" weight="0.24390244" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.32715008" side_tool="true" weight="0.1140257" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.32715008" side_tool="true" weight="0.1140257" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.6728499" visible="true" weight="0.2195122" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.33108866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.4040404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32996634" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005359" side_tool="true" weight="0.33182332" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32997763" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32996634" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32996634" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4994641" weight="0.3171008" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -496,34 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/william/servlet/DashboardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -544,43 +588,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/BKG_Overlay.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/style/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="528">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
+    <entry file="file://$PROJECT_DIR$/src/com/william/utils/DButil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="178">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/william/servlet/SocketServer.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../Jdk/jdk1.8.0_191/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="562" column="24" selection-start-line="562" selection-start-column="24" selection-end-line="562" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Jdk/jdk1.8.0_191/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2980">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding>
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Jdk/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/william/socket/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/william/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/BKG_Overlay_1400x800.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/1544062784863.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/images/BTN_Edit_32x32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/ICN_My_Profile_20x20.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/loginstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="228">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/ICN_Message_20x20.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/ICN_MyRequest_20x20.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/book/mybook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
           <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4039#4045#0#HTML" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1422#1428#0#HTML" expanded="true" />
+            <element signature="e#1369#1375#0#HTML" expanded="true" />
+            <element signature="e#2023#2029#0#HTML" expanded="true" />
+            <element signature="e#2029#2035#0#HTML" expanded="true" />
+            <element signature="e#2106#2112#0#HTML" expanded="true" />
+            <element signature="e#2112#2118#0#HTML" expanded="true" />
+            <element signature="e#2197#2203#0#HTML" expanded="true" />
+            <element signature="e#2203#2209#0#HTML" expanded="true" />
+            <element signature="e#2293#2299#0#HTML" expanded="true" />
+            <element signature="e#2299#2305#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/style/loginstyle.css">
+    <entry file="file://$PROJECT_DIR$/web/static/style/images/ICN_Message_20x20.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="192">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
@@ -595,7 +737,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -603,7 +744,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (book)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -643,6 +784,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
