@@ -1,14 +1,12 @@
 @charset "UTF-8";
-${
-}
-
+/*共用CSS开始部分*/
 body {
     width: 100%;
     height: 100%;
     background: url("images/BKG_Overlay_1400x800.png") no-repeat fixed center top;
 }
 
-#wrapper {
+.wrapper {
     width: 100%;
     min-height: 500px;
     margin: 0 auto;
@@ -20,13 +18,13 @@ body {
     background-color: #286C85;
 }
 
-#header{
+#header_wrapper #header{
     width: 1200px;
     height:50px;
     margin: 0 auto;
 }
 
-#header .logo{
+#header_wrapper #header .logo{
     float: left;
     width: 240px;
     height: 50px;
@@ -38,13 +36,13 @@ body {
     padding-left: 60px;
 }
 
-#header .menu{
+#header_wrapper #header .menu{
     float: left;
     width: 500px;
     height: 50px;
 }
 
-#header .menu li{
+#header_wrapper #header .menu li{
     float: left;
     width: 120px;
     height: 50px;
@@ -52,7 +50,7 @@ body {
     font-size: 15px;
 }
 
-#header .menu li a{
+#header_wrapper #header .menu li a{
     width: 120px;
     height: 50px;
     display: inline-block;
@@ -63,14 +61,14 @@ body {
     border-radius: 1px;
 }
 
-#header .tool{
+#header_wrapper #header .tool{
     float: right;
     width: 300px;
     height: 50px;
     position: relative;
 }
 
-#header .tool input{
+#header_wrapper #header .tool input{
     position: absolute;
     width: 240px;
     height: 32px;
@@ -82,7 +80,7 @@ body {
     border: 1px solid #E3F7FF;
 }
 
-#header .tool .search_button{
+#header_wrapper #header .tool .search_button{
     position: absolute;
     height: 28px;
     width: 28px;
@@ -92,7 +90,7 @@ body {
     cursor: pointer;
 }
 
-#header .tool .role_switch_button{
+#header_wrapper #header .tool .role_switch_button{
     position: absolute;
     top: 11px;
     right: 0;
@@ -123,32 +121,42 @@ body {
     color: #696969;
 }
 
-#main{
+.main{
     width: 1200px;
     overflow: hidden;
     margin:  0 auto;
 }
 
-#left{
-    float: left;
-    min-height: 600px;
-    width:280px;
+#footer{
+    width: 1200px;
+    height:30px;
+    border:1px solid;
+    margin: 0 auto;
 }
 
-#left .user_info{
+/*共用CSS结束部分*/
+
+/*我的图书界面CSS样式开始*/
+#myBookMain #left{
+    float: left;
+    min-height: 500px;
+    width:180px;
+}
+
+#myBookMain #left .user_info{
     width:180px;
     background-color: #FFFFFF;
     padding-bottom: 10px;
     border:1px solid #D5D5D5;
 }
 
-#left .user_info .user_header img{
+#myBookMain #left .user_info .user_header img{
     width:80px;
     height: 80px;
     margin-top: 20px;
 }
 
-#left .user_info .user_header .user_name{
+#myBookMain  #left .user_info .user_header .user_name{
     width:155px;
     border-bottom: 1px solid #D5D5D5;
     color: #555555;
@@ -157,7 +165,7 @@ body {
     padding-bottom: 10px;
 }
 
-#left .user_info .user_basis .tip{
+#myBookMain #left .user_info .user_basis .tip{
     width:130px;
     height: 20px;
     margin-top: 15px;
@@ -170,23 +178,23 @@ body {
     line-height: 20px;
 }
 
-#left .user_info .user_basis .tip img{
+#myBookMain #left .user_info .user_basis .tip img{
     position: absolute;
     top: 0;
     right: 10px;
 }
 
-#left .user_info .user_basis li{
+#myBookMain #left .user_info .user_basis li{
     margin-top: 5px;
     text-align: left;
     margin-left: 15px;
 }
 
-#left .user_info .user_basis li label{
+#myBookMain #left .user_info .user_basis li label{
     float: left;
 }
 
-#left .user_info .user_basis li span{
+#myBookMain #left .user_info .user_basis li span{
     color: #707070;
     display: inline-block;
     width: 122px;
@@ -195,7 +203,7 @@ body {
     word-wrap: break-word;
 }
 
-#left .user_message{
+#myBookMain #left .user_message{
     width: 180px;
     border: 1px solid #D5D5D5;
     background-color: #FFFFFF;
@@ -203,7 +211,7 @@ body {
     margin-top: 20px;
 }
 
-#left .user_message .my_message{
+#myBookMain #left .user_message .my_message{
     background: url("images/ICN_Message_20x20.png") no-repeat 15px;
     width: 130px;
     height: 20px;
@@ -215,11 +223,11 @@ body {
     position: relative;
 }
 
-#left .user_message label{
+#myBookMain #left .user_message label{
     line-height: 20px;
 }
 
-#left .user_message .my_message .tip_count{
+#myBookMain #left .user_message .my_message .tip_count{
     padding: 0 6px;
     border-radius: 50%;
     background-color: #EB340A;
@@ -229,7 +237,7 @@ body {
     position: absolute;
 }
 
-#left .user_message .my_request{
+#myBookMain #left .user_message .my_request{
     background: url("images/ICN_MyRequest_20x20.png") no-repeat 15px 0;
     width: 130px;
     height: 20px;
@@ -241,7 +249,7 @@ body {
     position: relative;
 }
 
-#left .user_message .my_request .tip_count{
+#myBookMain #left .user_message .my_request .tip_count{
     padding: 0 6px;
     border-radius: 50%;
     background-color: #EB340A;
@@ -251,16 +259,294 @@ body {
     position: absolute;
 }
 
-#content{
+#myBookMain #content{
     float: right;
-    min-height: 600px;
-    width:900px;
-    border:1px solid;
+    min-height: 500px;
+    width:1000px;
 }
 
-#footer{
-    width: 1200px;
-    height:30px;
-    border:1px solid;
-    margin: 0 auto;
+#myBookMain #content #myBookTab{
+    overflow: hidden;
+    height: 30px;
+    border-bottom: 1px solid #76B5D1;
+    position: relative;
 }
+
+#myBookMain #content #myBookTab ul{
+    overflow: hidden;
+}
+
+#myBookMain #content #myBookTab ul li{
+    float: left;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+#myBookMain #content #myBookTab ul li .active{
+    color: #FFFFFF;
+    background-color: #4F92AB;
+}
+
+#myBookMain #content #myBookTab ul li a{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 1px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #8EBACA;
+    border-top: 1px solid #8EBACA;
+    border-left: 1px solid #8EBACA;
+    display: inline-block;
+}
+
+#myBookMain #content #myBookTab ul li span{
+    position: absolute;
+    top: 1px;
+    right: 9px;
+    color: #2EB133;
+}
+
+#myBookMain #content #myBookTab div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("images/BTN_AddBook_20x20.png") no-repeat 0;
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #333333;
+    padding-left: 10px;
+    text-align: right;
+}
+#myBookMain #content .table{
+    margin-top: 10px;
+}
+
+#myBookMain #content .table .header ul{
+    overflow: hidden;
+    padding: 0;
+    background-color: #FFD6AF;
+    font-size: 12px;
+    color: #555555;
+}
+
+#myBookMain .table .header ul li{
+    float: left;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+#myBookMain .table .header .index{
+    text-align: center ;
+}
+
+#myBookMain .table .content{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    min-height: 500px;
+}
+
+#myBookMain .table .content ul li{
+    float: left;
+    height: 80px;
+    text-align: left;
+    font-size: 12px;
+    color: #333333;
+    border-bottom: 1px dashed #A4A4A4;
+    position: relative;
+}
+
+#myBookMain .table .content .index{
+    text-align: center ;
+    line-height: 80px;
+}
+
+#myBookMain .table .content .book_info .book_img{
+    width: 50px;
+    height: 60px;
+    margin-top: 10px;
+    content: url("images/Book_IMG_Default_50x60.png");
+}
+
+#myBookMain .table .content .book_info .book_title{
+    width: 220px;
+    height: 35px;
+    top: 6px;
+    left: 60px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+}
+
+#myBookMain .table .content .book_info .book_author{
+    width: 220px;
+    height: 30px;
+    bottom: 0;
+    left: 60px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    color: #ABABAB;
+}
+
+#myBookMain .table .content .book_status .holder_img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    content: url("images/ICN_Holder_Blue_30x30.png");
+}
+
+#myBookMain .table .content .book_status .holder_name{
+    position: absolute;
+    top: 20px;
+    color: #2B46A4;
+    left: 40px;
+}
+
+#myBookMain .table .content .book_status .status_dec{
+    position: absolute;
+    top: 35px;
+    color: #96A3D2;
+    left: 40px;
+}
+
+#myBookMain .table .content .book_operator{
+    display: table;
+}
+
+#myBookMain .table .content .book_operator .cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#myBookMain .table .content .book_operator .update_button{
+    height: 20px;
+    width: 50px;
+    background-color: #C8E8FE;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myBookMain .table .content .book_history .short_desc{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    background-color: #FAFCF0;
+    color: #707070;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#myBookMain .table .content .book_history span{
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#myBookMain .table .index{
+    width: 60px;
+}
+
+#myBookMain .table .book_info{
+    width: 290px;
+}
+
+#myBookMain .table .book_status{
+    width: 170px;
+}
+
+#myBookMain .table .book_operator{
+    width: 80px;
+}
+
+#myBookMain .table .book_history{
+    width: 400px;
+}
+
+
+
+/*我的图书界面CSS样式结束*/
+
+
+/*添加图书CSS样式开始*/
+
+
+#addBookMain{
+    background-color: #FFFFFF;
+    min-height: 500px;
+    border: 1px solid #D5D5D5;
+}
+
+#addBookMain .info_area{
+    margin: 10px auto;
+}
+
+#addBookMain .info_area .title{
+    width: 1100px;
+    height: 30px;
+    text-align: left;
+    margin: 0 auto;
+    border-bottom: 1px dashed #A4A4A4;
+    line-height: 30px;
+}
+
+#addBookMain .info_area .show_img{
+    width: 120px;
+    height: 120px;
+    border-bottom: 1px solid #A4A4A4;
+    background-color: #A4A4A4;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#addBookMain .info_area ul li{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#addBookMain .info_area ul li label{
+    float: left;
+}
+
+#addBookMain .info_area ul li input{
+    width: 210px;
+    height: 20px;
+    border: 1px solid #858585;
+    border-radius: 3px;
+    text-indent: 4px;
+}
+
+#addBookMain .info_area ul li textarea{
+    width: 210px;
+    border: 1px solid #858585;
+    border-radius: 3px;
+    text-indent: 4px;
+    resize: unset;
+}
+
+#addBookMain .info_area .button{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #C8E8FE;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 92px;
+    cursor: pointer;
+}
+/*添加图书CSS样式结束*/

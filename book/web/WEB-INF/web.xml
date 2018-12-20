@@ -18,6 +18,14 @@
         <servlet-name>ShowMyBookServlet</servlet-name>
         <servlet-class>com.william.servlet.ShowMyBookServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>com.william.servlet.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/addbook</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ShowMyBookServlet</servlet-name>
         <url-pattern>/mybook</url-pattern>
